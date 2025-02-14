@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+.cabeca {
+    background-color: rgba(1,109,20,255);
+    color: white;
+    padding: 15px 0;
+}
+.cabeca h1, .cabeca h2 {
+    margin: 5px 0;
+}
+.botao {
+    margin-top: 10px;
+}
+.botao button {
+    background-color: rgba(0, 78, 17, 1);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.pai {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.filho {
+    background-color: white;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+}
+.video {
+    margin: 20px auto;
+    width: 60%;
+}
+.footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ddd;
+}
+h3{
+    color: rgba(0, 78, 17, 1); 
+    
+}
+a{
+    color: #ddd;
+}
